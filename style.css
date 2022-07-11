@@ -31,6 +31,14 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.adresse {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: white!important;
+    margin-top: 20px;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -486,7 +494,12 @@ button {
 
 .social {
     max-width: 400px;
-    margin: auto auto 10px auto;
+    margin: auto auto 10px auto;   
+}
+
+.social a {
+    font-size: 1.2em;
+    color: black!important;
 }
 
 .icon-md {
@@ -494,6 +507,8 @@ button {
     font-size: 48pt!important;
     min-width: 48pt;
     min-height: 48pt;
+
+    
     
     border: 1px dashed transparent;
 }
@@ -802,12 +817,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #363636!important;
 }
 
 .btn-atomic-tangerine:hover, .btn-atomic-tangerine:focus {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #363636!important;
     border: 1px dashed white;
 }
 
@@ -879,7 +894,8 @@ h4 {
 
 .google-map {
     width: 100%;
-    margin-top: 15px;
+    height: 300px;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 1024px) {

@@ -3,27 +3,25 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="la panthère, la panthère agence design, agence design Lyon, agence design, web design lyon, web design">
-    <meta name="description" content="Agence de web design basée à Lyon">
+    <meta name="description" content="La Panthère, Agence de web design basée à Lyon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
 	<meta name="robots" content="index, follow">
 
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">	
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<script defer src="./js/jquery-2.2.4.min.js"></script>
+	<script defer src="./js/bootstrap.min.js"></script>
+	<script defer src="./js/blocs.min.js"></script>
+	<script defer src="./js/jquery.touchSwipe.min.js"></script>
 
     <title>La Panthère - Agence de web design</title>
-
     
 <!-- Analytics -->
  
@@ -41,8 +39,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">				
-				<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="logo_agence_la_panthere_monochrome" height="40" /></a>
-				
+				<a class="navbar-brand" href="index.html" ><img src="img/agence-la-panthere-monochrome.svg" alt="logo_agence_la_panthere_monochrome" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -50,12 +47,7 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="#bloc-2-services">Accueil</a>
-					</li>
-					<li>
-					</li>
-					<li>
-						<a href="#bloc-5-cta">Contact &gt;</a>
+						<a href="contact.html#bloc-0">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -69,37 +61,14 @@
 <!-- bloc-1-presentation -->
 <section class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
-		<div class="row tight-width-whitespace black-background">
+		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
 				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="logo_agence_la_panthere" />
-				<h1 class="text-center hero-bloc-text tc-white ">
+				<h1 class="text-center hero-bloc-text tc-orange">
 					Agence La Panthère
 				</h1>
-				<!--<iframe class="google-map" 
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31491.595054859277!2d4.828878075193718!3d45.76136835814693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea516ae88797%3A0x408ab2ae4bb21f0!2sLyon!5e0!3m2!1sfr!2sfr!4v1657504927142!5m2!1sfr!2sfr" 
-						width="400" 
-						height="300" 
-						style="border:0;" 
-						allowfullscreen="" 
-						loading="lazy" 
-						referrerpolicy="no-referrer-when-downgrade">
-				</iframe>-->
 
-				<p class="adresse">15 Av. des Frères Lumière, 69008 Lyon</p>
-
-				<iframe class="google-map"
-						src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d44549.92358871725!2d4.86101945196399!3d45.743723327190466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x47f4ea62fdaf6429%3A0x6e097152ab2851f8!2sGare%20SNCF%20Lyon%20Part%20Dieu%2C%20Place%20Charles%20B%C3%A9raudier%2C%20Lyon!3m2!1d45.7605474!2d4.861117699999999!4m5!1s0x47f4ea73a1eb61f3%3A0xe021540498060457!2s15%20Av.%20des%20Fr%C3%A8res%20Lumi%C3%A8re%2C%20Lyon!3m2!1d45.7463394!2d4.862623999999999!5e0!3m2!1sfr!2sfr!4v1657550380054!5m2!1sfr!2sfr" 
-						
-						style="border:0;" 
-						allowfullscreen="" 
-						loading="lazy" 
-						referrerpolicy="no-referrer-when-downgrade">
-				</iframe>
-
-				<!--<div class="text-center">
-					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
-				</div>-->
-
+				<p class="adresse">* Ouvert de 9h à 18h, du lundi au vendredi</p>
 				
 			</div>
 		</div>
@@ -195,11 +164,9 @@
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
 					<picture>
-						<source srcset="./img/xxhdpi/1.jpg" media="(min-width: 1280px)">
-						<source srcset="./img/xhdpi/1.jpg" media="(min-width: 992px)">
-						<source srcset="./img/hdpi/1.jpg" media="(min-width: 768px)">
-						<source srcset="./img/mdpi/1.jpg" media="(max-width: 767px)">
-						<img src="./img/1.jpg" alt="image_agence_la_panthere_refonte_d'un_site_web_pour_un_journal_local" class="img-responsive portfolio-thumb" />
+						<source srcset="./img/hdpi/1.webp" media="(min-width: 768px)">
+						<source srcset="./img/xhdpi/1.webp" media="(max-width: 767px)">
+						<img src="./img/1.webp" class="img-responsive portfolio-thumb" alt="ila_panmage_agence_there_refonte_d'un_site_web_pour_un_journal_local"/>
 					</picture> 
 				</a>
 				<h3 class="mg-md text-center">
@@ -212,11 +179,9 @@
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">					
 					<picture>
-						<source srcset="./img/xxhdpi/2.jpg" media="(min-width: 1280px)">
-						<source srcset="./img/xhdpi/2.jpg" media="(min-width: 992px)">
-						<source srcset="./img/hdpi/2.jpg" media="(min-width: 768px)">
-						<source srcset="./img/mdpi/2.jpg" media="(max-width: 767px)">
-						<img src="./img/2.jpg" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_web_pour_photographes" />
+						<source srcset="./img/hdpi/2.webp" media="(min-width: 768px)">
+						<source srcset="./img/2.webp" media="(max-width: 767px)">
+						<img src="./img/2.webp" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_web_pour_photographes" />
 					</picture> 
 				</a>
 				<h3 class="mg-md text-center">
@@ -230,13 +195,7 @@
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
-					<picture>
-						<source srcset="./img/xxhdpi/3.jpg" media="(min-width: 1280px)">
-						<source srcset="./img/xhdpi/3.jpg" media="(min-width: 992px)">
-						<source srcset="./img/hdpi/3.jpg" media="(min-width: 768px)">
-						<source srcset="./img/mdpi/3.jpg" media="(max-width: 767px)">
-						<img src="./img/3.bmp" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_internet_pour_un_voyageur"/>
-					</picture> 
+					<img src="./img/3.webp" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_internet_pour_un_voyageur"/>
 				</a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
@@ -247,13 +206,7 @@
 			</article>
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
-					<picture>
-						<source srcset="./img/xxhdpi/4.jpg" media="(min-width: 1280px)">
-						<source srcset="./img/xhdpi/4.jpg" media="(min-width: 992px)">
-						<source srcset="./img/hdpi/4.jpg" media="(min-width: 768px)">
-						<source srcset="./img/mdpi/4.jpg" media="(max-width: 767px)">
-						<img src="./img/4.bmp" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_conception_d'un_site_pour_une_agence_de_mariage" />
-					</picture>
+					<img src="./img/4.webp" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_conception_d'un_site_pour_une_agence_de_mariage" />
 				</a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage
@@ -275,7 +228,7 @@
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero" >Contact</a>
 			</div>
 		</div>
 	</div>
@@ -295,22 +248,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a href="https://twitter.com">Twitter<span class="fa fa-twitter icon-md"></span></a>
+							<a href="https://twitter.com" aria-label="link_twitter" ><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a href="https://facebook.com">Facebook<span class="fa fa-facebook icon-md"></span></a>
+							<a href="https://facebook.com " aria-label="link_facebook" ><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a href="https://dribbble.com">Dribbble<span class="fa fa-dribbble icon-md"></span></a>
+							<a href="https://dribbble.com" aria-label="link_dribbble" ><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a href="https://instagram.com">Instagram<span class="fa fa-instagram icon-md"></span></a>
+							<a href="https://instagram.com" aria-label="link_instagram" ><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
@@ -338,7 +291,7 @@
 							<li><a href="listeseo.com">listeseo.com</a></li>
 						</ul>
 					</div>
-					<div class="col-sm-4">
+					<div class="col-sm-4 center-block">
 						<p>Annuaires liste 2</p>
 						<ul>
 							<li><a href="betterseo.com">betterseo.com</a></li>

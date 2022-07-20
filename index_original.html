@@ -8,22 +8,20 @@
 
 	<meta name="robots" content="index, follow">
 
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
+    <link rel="shortcut icon" type="image/png" href="favicon.jpg">    
 
-	<link rel="stylesheet" type="text/css" href="style-used.min.css">
+	<link rel="stylesheet" type="text/css" href="./style-preload-mobile.min.css">
 	
 	<link rel="preload" as="style" href="./css/bootstrap.min.css" onload="this.onload=null;this.rel='stylesheet'">
 	<link rel="preload" as="style" href="./css/font-awesome.min.css" onload="this.onload=null;this.rel='stylesheet'">
-	<link rel="preload" as="style" href="./css/et-line.css" onload="this.onload=null;this.rel='stylesheet'">
-	<link rel="preload" as="style" href="style.min.css" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" as="style" href="./css/et-line.min.css" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" as="style" href="./style.min.css" onload="this.onload=null;this.rel='stylesheet'">
 
-	<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">	-->
-	<!-- <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="./css/et-line.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="style.min.css"> -->
-	
-    
+	<!-- <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link rel="stylesheet" type="text/css" href="./style.min.css"> -->
+	    
 	<script defer src="./js/jquery-3.5.0.min.js"></script>
 	<script defer src="./js/bootstrap.min.js"></script>
 	<script defer src="./js/blocs.min.js"></script>
@@ -48,7 +46,7 @@
 		<nav class="navbar row">
 			<div class="navbar-header">				
 				<a class="navbar-brand" href="index.html" >
-					<img src="img/agence-la-panthere-monochrome.svg" alt="logo_agence_la_panthere_monochrome" width="100%" height="40" />
+					<img src="img/agence-la-panthere-monochrome.svg" alt="logo_agence_la_panthere_monochrome" width="100" height="40" class="logo-la-panthere"/>
 				</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
@@ -177,7 +175,7 @@
 					<picture>
 						<source srcset="./img/hdpi/1.webp" media="(min-width: 768px)">
 						<source srcset="./img/xhdpi/1.webp" media="(max-width: 767px)">
-						<img src="./img/1.webp" width="100%" height="100%" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_refonte_d'un_site_web_pour_un_journal_local"/>
+						<img src="./img/1.webp" width="100" height="100" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_refonte_d'un_site_web_pour_un_journal_local"/>
 					</picture> 
 				</a>
 				<h3 class="mg-md text-center">
@@ -192,7 +190,7 @@
 					<picture>
 						<source srcset="./img/hdpi/2.webp" media="(min-width: 768px)">
 						<source srcset="./img/2.webp" media="(max-width: 767px)">
-						<img src="./img/2.webp" width="100%" height="100%" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_web_pour_photographes" />
+						<img src="./img/2.webp" width="100" height="100" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_web_pour_photographes" />
 					</picture> 
 				</a>
 				<h3 class="mg-md text-center">
@@ -206,7 +204,7 @@
 		<div class="row tight-width-whitespace portfolio-row">
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
-					<img src="./img/3.webp" width="100%" height="100%" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_internet_pour_un_voyageur"/>
+					<img src="./img/3.webp" width="100" height="100" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_création_d'un_site_internet_pour_un_voyageur"/>
 				</a>
 				<h3 class="mg-md text-center">
 					Création d'un site internet pour un voyageur
@@ -217,7 +215,7 @@
 			</article>
 			<article class="col-sm-6">
 				<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
-					<img src="./img/4.webp" width="100%" height="100%" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_conception_d'un_site_pour_une_agence_de_mariage" />
+					<img src="./img/4.webp" width="100" height="100" class="img-responsive portfolio-thumb" alt="image_agence_la_panthere_conception_d'un_site_pour_une_agence_de_mariage" />
 				</a>
 				<h3 class="mg-md text-center">
 					Conception d'un site pour une agence de mariage

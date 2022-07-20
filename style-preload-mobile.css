@@ -1,13 +1,4 @@
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url("./fonts/glyphicons-halflings-regular.eot")!important;
-    src: url("./fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), 
-    url("./fonts/glyphicons-halflings-regular.woff2") format("woff2"), 
-    url("./fonts/glyphicons-halflings-regular.woff") format("woff"), 
-    url("./fonts/glyphicons-halflings-regular.ttf") format("truetype"), 
-    url("./fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg")!important;
-    font-display: swap!important;
-}
+/* Bootstrap */
 
 html {
     font-family: sans-serif;
@@ -30,6 +21,10 @@ a {
 h1 {
     font-size: 2em;
     margin: .67em 0
+}
+
+img {
+    border: 0
 }
 
 button,input,optgroup,select,textarea {
@@ -147,12 +142,6 @@ ol,ul {
     }
 }
 
-@media (min-width: 992px) {
-    .container {
-        width:970px
-    }
-}
-
 .row {
     margin-right: -15px;
     margin-left: -15px
@@ -172,15 +161,15 @@ ol,ul {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 15px
 }
 
 .col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {
-    float: left;
+    float: left
 }
 
 .col-xs-12 {
-    width: 100%;
+    width: 100%
 }
 
 @media (min-width: 768px) {
@@ -203,20 +192,7 @@ ol,ul {
     .col-sm-3 {
         width: 25%
     }
-}
 
-@media (min-width: 992px) {
-    .col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9 {
-        float:left
-    }
-    
-    .col-md-8 {
-        width: 66.66666667%
-    }
-
-    .col-md-offset-2 {
-        margin-left: 16.66666667%
-    }
 }
 
 .btn {
@@ -312,6 +288,7 @@ ol,ul {
         padding-bottom: 0;
         overflow: visible!important
     }
+
 }
 
 .navbar-brand {
@@ -386,6 +363,8 @@ ol,ul {
     margin-left: auto
 }
 
+/* End Bootstrap */
+
 /* Font-Awesome */
 
 .fa {
@@ -413,9 +392,11 @@ ol,ul {
     content: "\f17d"
 }
 
-/* et-line */
+/* End Font-Awesome */
 
-.et-icon-adjustments, .et-icon-alarmclock, .et-icon-anchor, .et-icon-aperture, .et-icon-attachment, .et-icon-bargraph, .et-icon-basket, .et-icon-beaker, .et-icon-bike, .et-icon-book-open, .et-icon-briefcase, .et-icon-browser, .et-icon-calendar, .et-icon-camera, .et-icon-caution, .et-icon-chat, .et-icon-circle-compass, .et-icon-clipboard, .et-icon-clock, .et-icon-cloud, .et-icon-compass, .et-icon-desktop, .et-icon-dial, .et-icon-document, .et-icon-documents, .et-icon-download, .et-icon-dribbble, .et-icon-edit, .et-icon-envelope, .et-icon-expand, .et-icon-facebook, .et-icon-flag, .et-icon-focus, .et-icon-gears, .et-icon-genius, .et-icon-gift, .et-icon-global, .et-icon-globe, .et-icon-googleplus, .et-icon-grid, .et-icon-happy, .et-icon-hazardous, .et-icon-heart, .et-icon-hotairballoon, .et-icon-hourglass, .et-icon-key, .et-icon-laptop, .et-icon-layers, .et-icon-lifesaver, .et-icon-lightbulb, .et-icon-linegraph, .et-icon-linkedin, .et-icon-lock, .et-icon-magnifying-glass, .et-icon-map, .et-icon-map-pin, .et-icon-megaphone, .et-icon-mic, .et-icon-mobile, .et-icon-newspaper, .et-icon-notebook, .et-icon-paintbrush, .et-icon-paperclip, .et-icon-pencil, .et-icon-phone, .et-icon-picture, .et-icon-pictures, .et-icon-piechart, .et-icon-presentation, .et-icon-pricetags, .et-icon-printer, .et-icon-profile-female, .et-icon-profile-male, .et-icon-puzzle, .et-icon-quote, .et-icon-recycle, .et-icon-refresh, .et-icon-ribbon, .et-icon-rss, .et-icon-sad, .et-icon-scissors, .et-icon-scope, .et-icon-search, .et-icon-shield, .et-icon-speedometer, .et-icon-strategy, .et-icon-streetsign, .et-icon-tablet, .et-icon-target, .et-icon-telescope, .et-icon-toolbox, .et-icon-tools, .et-icon-tools-2, .et-icon-trophy, .et-icon-tumblr, .et-icon-twitter, .et-icon-upload, .et-icon-video, .et-icon-wallet, .et-icon-wine {
+/* et-icon */
+
+.et-icon-adjustments,.et-icon-alarmclock,.et-icon-anchor,.et-icon-aperture,.et-icon-attachment,.et-icon-bargraph,.et-icon-basket,.et-icon-beaker,.et-icon-bike,.et-icon-book-open,.et-icon-briefcase,.et-icon-browser,.et-icon-calendar,.et-icon-camera,.et-icon-caution,.et-icon-chat,.et-icon-circle-compass,.et-icon-clipboard,.et-icon-clock,.et-icon-cloud,.et-icon-compass,.et-icon-desktop,.et-icon-dial,.et-icon-document,.et-icon-documents,.et-icon-download,.et-icon-dribbble,.et-icon-edit,.et-icon-envelope,.et-icon-expand,.et-icon-facebook,.et-icon-flag,.et-icon-focus,.et-icon-gears,.et-icon-genius,.et-icon-gift,.et-icon-global,.et-icon-globe,.et-icon-googleplus,.et-icon-grid,.et-icon-happy,.et-icon-hazardous,.et-icon-heart,.et-icon-hotairballoon,.et-icon-hourglass,.et-icon-key,.et-icon-laptop,.et-icon-layers,.et-icon-lifesaver,.et-icon-lightbulb,.et-icon-linegraph,.et-icon-linkedin,.et-icon-lock,.et-icon-magnifying-glass,.et-icon-map,.et-icon-map-pin,.et-icon-megaphone,.et-icon-mic,.et-icon-mobile,.et-icon-newspaper,.et-icon-notebook,.et-icon-paintbrush,.et-icon-paperclip,.et-icon-pencil,.et-icon-phone,.et-icon-picture,.et-icon-pictures,.et-icon-piechart,.et-icon-presentation,.et-icon-pricetags,.et-icon-printer,.et-icon-profile-female,.et-icon-profile-male,.et-icon-puzzle,.et-icon-quote,.et-icon-recycle,.et-icon-refresh,.et-icon-ribbon,.et-icon-rss,.et-icon-sad,.et-icon-scissors,.et-icon-scope,.et-icon-search,.et-icon-shield,.et-icon-speedometer,.et-icon-strategy,.et-icon-streetsign,.et-icon-tablet,.et-icon-target,.et-icon-telescope,.et-icon-toolbox,.et-icon-tools,.et-icon-tools-2,.et-icon-trophy,.et-icon-tumblr,.et-icon-twitter,.et-icon-upload,.et-icon-video,.et-icon-wallet,.et-icon-wine {
     font-family: et-line;
     speak: none;
     font-style: normal;
@@ -440,7 +421,9 @@ ol,ul {
     content: "\e01c"
 }
 
-/* style.css */
+/* End et-icon */
+
+/* style.min.css */
 
 .d-bloc .navbar-toggle .icon-bar,body {
     background: #fff
@@ -636,6 +619,7 @@ body {
         transform: translate(0,-50%);
         -webkit-transform: translateY(-50%)
     }
+
 }
 
 .mg-md {
@@ -752,8 +736,15 @@ h3 {
     color: #3e3e3e!important
 }
 
+.logo-la-panthere {
+    width: 100%;
+    height: 40px;
+}
+
 .portfolio-thumb {
-    margin-bottom: 24px
+    margin-bottom: 24px;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio-row {
@@ -823,8 +814,40 @@ h3 {
     font-size: 1.35em
 }
 
-@media only screen and (min-width: 1024px) and (max-width:1366px) and (-webkit-min-device-pixel-ratio:1.5) {
+@media (max-width: 1024px) {
+    .bloc {
+        padding-left:20px;
+        padding-right: 20px
+    }
+
+}
+
+@media (max-width: 992px) and (min-width:768px) {
+    .navbar .nav {
+        max-width:80%
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px) and (orientation:landscape) {
     .b-parallax {
         background-attachment:scroll
     }
 }
+
+@media (max-width: 991px) {
+    .container {
+        width:100%
+    }
+
+    .b-parallax {
+        background-attachment: scroll
+    }
+
+    #hero-bloc,.page-container {
+        overflow-x: hidden;
+        position: relative
+    }
+
+}
+

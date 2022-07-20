@@ -158,6 +158,8 @@ a:hover {
     color: rgba(0, 0, 0, .63);
 }
 
+
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -176,6 +178,8 @@ a:hover {
     /*color: rgba(255, 255, 255, 1);*/
     color: rgba(0, 0, 0, 1);
 }
+
+
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
